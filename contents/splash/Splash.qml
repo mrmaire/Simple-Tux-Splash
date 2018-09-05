@@ -37,7 +37,7 @@ Image {
         y: root.height
         source: "images/rectangle.svg"
         Image {
-            source: "images/kde.svg"
+            source: "images/tux.png"
             anchors.centerIn: parent
         }
         Rectangle {
@@ -45,7 +45,7 @@ Image {
             color: "#2a2a2b"
             anchors {
                 bottom: parent.bottom
-                bottomMargin: 50
+                bottomMargin: 20
                 horizontalCenter: parent.horizontalCenter
             }
             height: 8
